@@ -15,7 +15,7 @@ import com.game.backend.service.GameServices;
 
 @RestController
 @RequestMapping("/games")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class GameController {
 	@Autowired
 	private GameServices gameserv;
